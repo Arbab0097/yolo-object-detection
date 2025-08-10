@@ -15,7 +15,7 @@ This repository contains my assignment: training and inference for object detect
 
 ## How to run (quick)
 1. Open the notebook in Colab:  
-   `https://colab.research.google.com/github/<YOUR_USERNAME>/<REPO>/blob/main/notebooks/YOLO_Detection_and_Segmentation.ipynb`  
+   `https://colab.research.google.com/github/Arbab0097/yolo-object-detection/blob/main/notebooks/YOLO_Detection_and_Segmentation.ipynb`  
 2. Install requirements: `pip install -r requirements.txt` (or run the notebook cells that install dependencies).  
 3. Load the model: `from ultralytics import YOLO; model = YOLO('models/best.pt')`  
 4. Run inference on a video: call the notebook cell that runs `infer_video('videos/input_video.mp4','videos/segmented_output_video1.mp4')`.
