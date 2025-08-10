@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['Bottle', 'Charger', 'Handsfree', 'Human', 'Laptop', 'Socket', 'Towel']
+
+roboflow:
+  workspace: giki-uue7v
+  project: task11-fhahj
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/giki-uue7v/task11-fhahj/dataset/1
